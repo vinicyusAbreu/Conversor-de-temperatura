@@ -1,6 +1,6 @@
 # 🌡 Conversor de temperatura
 
- Um conversor de temperatura que converte a temperatura aneamente em todos os três formatos mais importantes de temperatura.
+ Um conversor de temperatura que converte a temperatura em todos os três formatos mais importantes de temperatura.
 
 ## ℹ Sobre o projeto 
 Um Conversor de Temperatura que permite que você converta rapidamente a temperatura. Simplesmente seleciona a temperatura e coloque o valor no campo e a conversão será automática e assim vai exibir a temperatura em Celsius, Fahrenheit ou Kelvin. Desenvolvido com HTML, CSS e Javascript.
