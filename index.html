@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+
+        <div class="conversor">
+            <div class="data"><span id="dia"></span> <span id="mes"></span> <span id="ano"></span></div>
+
+            <h1> <i class="fas fa-temperature-low"></i>Temperatura</h1>
+
+            <input id="conversor" type="number">
+
+            <select class="reset" id="seleção1">
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+
+        </div>
+
+        <div class="convertido">
+
+            <input id="convertido" value="" type="number">
+
+            <select class="reset" id="seleção2">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+
+        </div>
+    </section>
+</body>
+
+</html>
